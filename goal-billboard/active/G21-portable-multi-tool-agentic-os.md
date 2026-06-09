@@ -6,7 +6,7 @@ track: infrastructure
 priority: |-
   P1 (high leverage — the long-term build that lets the whole agentic-OS ride on any tool/repo/machine; compounds across every future project, not just Evium)
 created: 2026-06-08T13:00Z
-updated: 2026-06-08T13:00Z
+updated: 2026-06-09T11:15Z  # all-night plow 2026-06-09: N=3 adapters (Cursor+Claude+Codex), ~92% file-level agnostic, census 6->18 mechanisms, closure-discipline 4-surfaces, R3 guard-hardening, BG-infra completion, shared-billboard live + root-fixed — all DELIBERATE G21 work (this is the answer to the 2 open NS-drift sigs: it was on-mission, not a pivot)
 serves_northern_star: G21  # IS the Northern Star itself now (was G2, demoted 2026-06-03; R1 re-anchor 2026-06-09 — the OS is the end-point, the site is test-data)
 guiding_light: true  # long-term build that compounds across future projects too
 northern_star: true  # SET 2026-06-09 (R1 fix): the OS (G21) is the Northern Star — the user's stated end-point. G2 demoted; BLS is test-data, not a goal. (Confirm G8-vs-G21 if you meant the deep-integration goal instead.)
