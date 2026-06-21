@@ -8,7 +8,7 @@ guiding_light: true
 priority: P1
 phase: "Phase 2 LANDED — 5 analyzers total (themes + KPI deltas + token efficiency + recurrence detection + domino effectiveness) running in parallel on POC bundle in 0.14s wall-clock; aggregator extended with priority section ordering + phase auto-bump"
 created: 2026-05-27T00:30:00Z
-updated: 2026-05-27T02:55:00Z
+updated: 2026-06-21T21:01Z  # refreshed (tracking freshness) per goal-grooming-proposal-2026-06-21.md §4-G — real progress (the capture half of the capture-vs-act seam with G14); not stalled, just un-stamped. No phase change.
 serves_northern_star: G2
 linked_plans:
   - context/markdowns/plans/automation/session-bundle-infrastructure-plan.md

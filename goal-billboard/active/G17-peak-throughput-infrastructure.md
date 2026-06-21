@@ -3,10 +3,11 @@ goal_id: G17
 title: Peak development throughput infrastructure — multi-orchestrator + heterogeneous cluster + slam-dunk wave (umbrella goal)
 status: active
 track: infrastructure
-priority: |-
-  P0 (user explicit 2026-05-28T16:25Z: "make a new overarching plan/goal in the bilboard so we can truly focus on using our system to get this all done the best way possible")
+priority: P0  # user explicit 2026-05-28T16:25Z: "make a new overarching plan/goal in the bilboard so we can truly focus on using our system to get this all done the best way possible" (malformed `priority: |-` block-scalar fixed to a plain P0 per goal-grooming-proposal-2026-06-21.md §4-D)
 created: 2026-05-28T16:32Z
-updated: 2026-05-28T16:32Z
+updated: 2026-06-21T21:01Z
+status_tag: awaiting-user
+gated_on: "USER gesture — (1) a 2nd Anthropic Max subscription on a new account (~$200/mo; the ONLY cost — A72 has the analysis) and (2) setup of the ALREADY-OWNED hardware (M2 old Mac + Pi #1 + Pi #2, all owned/flashed — zero capex). Effectively dormant-by-design: ZERO agent work is possible until the user acts (no sub = no M2 agent; un-wired Pis = no cluster). Any 'buy hardware' framing is WRONG. (Surfaced per goal-grooming-proposal-2026-06-21.md §4-D.)"
 serves_northern_star: G2  # the WHOLE infrastructure exists to accelerate G2 Evium delivery
 guiding_light: true  # this is the long-term build that compounds across future projects too
 northern_star: false  # G2 still ships first

@@ -7,8 +7,10 @@ northern_star: false
 guiding_light: true
 priority: P0 (elevated — user gated actual shutdown on completion of this overhaul)
 created: 2026-05-26T23:50:00Z
-updated: 2026-05-27T00:14:00Z
-phase: "Phase 3 LANDED — round-trip test built + first run 99/100 PASS; wired into npm test:medium; A30 Phase 4 verification gate CLEARED on the structural test side; awaiting user explicit OK-shut-down signal for Phase 4"
+updated: 2026-06-21T21:01Z
+status_tag: awaiting-user
+gated_on: "USER signal — the explicit 'OK-to-shut-down' for Phase 4. Phase 3 LANDED (round-trip test 99/100, wired into npm test:medium, A30 Phase-4 verification gate CLEARED on the structural-test side). Phase 4 (the actual graceful shutdown) cannot proceed without the user's deliberate shut-down OK. A decision to put in front of the user, NOT a stall. (Surfaced per goal-grooming-proposal-2026-06-21.md §4-D.)"
+phase: "Phase 3 LANDED — round-trip test built + first run 99/100 PASS; wired into npm test:medium; A30 Phase 4 verification gate CLEARED on the structural test side; AWAITING USER explicit OK-shut-down signal for Phase 4 (user-gate — see gated_on)"
 serves_northern_star: G2
 linked_plans:
   - context/markdowns/plans/automation/graceful-shutdown-startup-overhaul-plan.md (master; this overhaul)

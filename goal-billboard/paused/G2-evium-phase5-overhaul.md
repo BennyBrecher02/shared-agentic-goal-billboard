@@ -9,8 +9,10 @@ ns_demoted: "2026-06-03 — demoted from Northern Star (user #63: BLS pivot). Ev
 northern_star_tagline: "(HISTORICAL — pre-2026-06-03 BLS pivot) The client deliverable. 696 audit cells, twelve devices, one sprint to defect-free."
 phase: sleep-plow 2026-05-28 advanced 9-device real-hardware sweep (5 iOS + 4 Android profiles) → consolidated-findings G2-CLOSE-READY YES verdict ON DISK; awaiting client review + push of 10 commits ahead origin + 3 monkey decisions + Mobile Phase 6 real-iPhone gesture
 priority: P0
+status_tag: awaiting-user
+gated_on: "USER-owned — (1) client review of the shipped overhaul, (2) the Evium PUSH (10 commits ahead of origin), which is BLOCKED behind the ⚠ DO-NOT-PUSH-EVIUM gate: the contact/subscribe/quote forms on the frozen `main` submit nowhere (bug #20260529T0612-...; a push-time lead-loss gun, NOT a current live leak — the live tree has no forms), so the forms must be wired BEFORE any Evium push, and (3) 3 pending monkey-chamber decisions. No agent move here; correctly shelved (BLS pivot 2026-06-02), fully resumable on explicit user say-so. (Surfaced — NOT moved — per goal-grooming-proposal-2026-06-21.md §4-D.)"
 created: 2026-05-24T01:57Z
-updated: 2026-05-28T10:20:00Z
+updated: 2026-06-21T21:01Z
 sleep_plow_artifacts:
   - reports/audit-findings/g2-second-pass/consolidated-findings.md (G2-CLOSE-READY YES verdict; 81 real-device captures)
   - 5 atomic remediation patches landed (M-NEW-01 products §01 tablet viewport scope)

@@ -5,11 +5,20 @@ status: active
 track: infrastructure
 priority: |-
   P1 (high leverage — the long-term build that lets the whole agentic-OS ride on any tool/repo/machine; compounds across every future project, not just Evium)
+phase: >
+  ACTIVATION landed — N=3 adapters (Cursor+Claude+Codex) + the kit now SELF-ACTIVATES on deploy:
+  directive-skills (imperative USE-WHEN triggers + a SessionStart disciplines-primer) make the disciplines
+  FIRE, not just sit; repo-bootstrap (deploy-kit.sh) brings the OS alive on clone; config-generator keeps
+  every agent's native config in lockstep with --check drift; the activation-conformance detector (14/14)
+  guards against passive reversion (passive-tree → RED, real-tree → GREEN). BLS field-harvest folded back
+  (4 memories + 6 skill-refs + the post-project-harvest workflow). tiered-QA (SOLO default / MATRIX opt-in)
+  + os-tools MCP design (thin-shell, 9 tools, stdio-local) staged. Remaining gap-to-100%: the live torch
+  render + the matrix-config extract + closing the agnostic-% tail.
 created: 2026-06-08T13:00Z
-updated: 2026-06-09T11:15Z  # all-night plow 2026-06-09: N=3 adapters (Cursor+Claude+Codex), ~92% file-level agnostic, census 6->18 mechanisms, closure-discipline 4-surfaces, R3 guard-hardening, BG-infra completion, shared-billboard live + root-fixed — all DELIBERATE G21 work (this is the answer to the 2 open NS-drift sigs: it was on-mission, not a pivot)
+updated: 2026-06-21T21:01Z  # activation chapter (verified on disk): directive-skills + repo-bootstrap (deploy-kit.sh) + 4 BLS-mined memories + 6 skill-refs + post-project-harvest workflow + tiered-QA (SOLO/MATRIX) + os-tools MCP design + activation-conformance detector (14/14) + config-generator (--check drift). The OS now ACTIVATES, not just deploys. (prior: 2026-06-09 all-night plow — N=3 adapters Cursor+Claude+Codex, ~92% file-level agnostic, census 6->18 mechanisms.)
 serves_northern_star: G21  # IS the Northern Star itself now (was G2, demoted 2026-06-03; R1 re-anchor 2026-06-09 — the OS is the end-point, the site is test-data)
 guiding_light: true  # long-term build that compounds across future projects too
-northern_star: true  # SET 2026-06-09 (R1 fix): the OS (G21) is the Northern Star — the user's stated end-point. G2 demoted; BLS is test-data, not a goal. (Confirm G8-vs-G21 if you meant the deep-integration goal instead.)
+northern_star: true  # NS LOCKED to G21 2026-06-21 (user OK on the goal-grooming triage resolved the G8-vs-G21 question: G21 — the portable agentic-OS — IS the Northern Star, the user's stated end-point; G8 = deep-integration links UNDER G21, see linked_goals). Set 2026-06-09 (R1); G2 demoted, BLS is test-data not a goal.
 succeeds_goal: G20  # G20 (RED-ALERT repo-decouple) is ACHIEVED; this is the ongoing portable-OS successor it seeded
 leverage: high
 linked_plans:
@@ -28,6 +37,10 @@ linked_refs:
 linked_audits: []
 linked_bugs: []
 linked_changes: []
+linked_goals:
+  # Sub-goals that sit UNDER G21 (the Northern Star) per the 2026-06-21 NS-lock decision.
+  - G8 — Northern Star deep integration (the deep-integration arm of the portable OS; its remaining exit
+    criteria #4 per-NS token attribution + #5 clears-path badge are dashboard surfaces under G18). Links UNDER G21.
 
 # Chain of Thought integration (A60 / A58 Brain — schema parity with the other goal files)
 cot_chain_id: "G21-portable-multi-tool-os"
@@ -105,22 +118,34 @@ e.g. `~/.cursor/skills/`, regenerated freely). See the orchestrator-architecture
 (`research/external/agent-orchestrator-architecture-2026-06-07.md`: per-env OS **A** vs one master OS **B**)
 and the adapters config layer (`research/external/config-handling-architecture-2026-06-07.md`).
 
-## Current state (2026-06-08)
+## Current state (2026-06-21) — agnostic + self-activating
 
-- **Design corpus complete** for the first slice: convo-torch protocol drafted; orchestrator + config
-  architecture decided; the Cursor research consolidated (3 surviving docs + the wield-Cursor map);
-  brain-lifecycle plan (unified memory-stream + handoff lineage) staged.
-- **Mirrors partially real today** inside Claude Code: the memory mirror (canonical auto-memory →
-  `.claude/memory-mirror/`, one-way sync) and AGENTS.md as the harness-agnostic convention bridge already
-  exist; the skill + guardrail mirrors and the cross-tool generalization are the build-out.
-- **Not yet built:** the standalone `agent-dev-env-kit` package, the `_core/torch` runtime, the live Cursor
-  adapter. These are G21's work.
+- **N=3 adapters are real** — Cursor + Claude + Codex, with conformance suites green. The kit is
+  **~92% file-level agnostic** (per the 2026-06-09 all-night plow).
+- **The activation leap (the chapter that just landed):** the kit no longer merely *deploys* mechanisms —
+  it **activates** them. **directive-skills** (imperative USE-WHEN triggers) + a SessionStart
+  **disciplines-primer** make the disciplines FIRE rather than sit dormant; **repo-bootstrap**
+  (`portable-kit/deploy-kit.sh`) brings the OS alive on clone (detect port, wire hooks, inject directives);
+  the **config-generator** (`portable-kit/generate-agent-configs.sh`, `--check` drift) keeps every agent's
+  native config in lockstep from one source; and the **activation-conformance detector**
+  (`scripts/tests/test-activation-conformance.sh`, 14/14) proves the three activation mechanisms actually
+  fire — a passive tree goes RED, a real tree goes GREEN — guarding against passive reversion.
+- **BLS field-harvest folded back** — the first real field-test of the **post-project-harvest** workflow
+  (`scripts/post-project-harvest.sh` + `.claude/workflows/post-project-harvest.js`): **4 memories** +
+  **6 skill-refs** mined from ~2 weeks of Cursor/BLS usage now live in the OS.
+- **tiered-QA** (SOLO default vs MATRIX opt-in) is staged in the kit AGENTS templates + cursor-rules.
+- **os-tools MCP is designed** (thin-shell, 9 tools, stdio-local) as the STATE-carrying surface, with a
+  working server (`scripts/mcp/os_tools_server.py`); the disciplines themselves stay in directive SKILL.md
+  + hooks. (Design: `context/markdowns/research/systems/os-tools-mcp-design-2026-06-21.md`.)
+- **Mirrors:** memory mirror (canonical auto-memory → `.claude/memory-mirror/`, one-way sync) + AGENTS.md
+  harness-agnostic bridge are live; the skill + guardrail mirrors travel via the kit's adapter contract.
 
 ## Next action
 
-- Lift the existing Claude-Code-internal mirrors (memory + AGENTS.md bridge) into a tool-neutral
-  `agent-dev-env-kit` skeleton; pin the `_core/torch` payload schema from the protocol doc; stand up the
-  Cursor adapter as the first per-tool proof.
+- Close the gap-to-100%: stand up the **live torch render** (the P2 full per-env render is the one skip in
+  the adapter-conformance suite), **extract the matrix-config** so MATRIX-mode QA is one-command on any
+  deploy, and **close the agnostic-% tail** (the residual hardcoded-to-Claude-Code pieces) toward a fully
+  tool-neutral core.
 
 ## Exit criteria
 

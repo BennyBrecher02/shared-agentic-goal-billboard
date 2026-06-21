@@ -3,10 +3,11 @@ goal_id: G4
 title: Skill system + reactionary infrastructure maintenance
 status: active
 track: quality
-phase: maintenance + structural-enforcement layer (A18+A19) + skill-health framework (A28 Phase 2 refresh in progress — agentic-webdesign + agentic-chrome-tools refreshed; 1 more to go: agentic-device-testing)
+phase: "maintenance + structural-enforcement layer (A18+A19) + skill-health framework (A28 Phase 2 refresh in progress — agentic-webdesign + agentic-chrome-tools refreshed; 1 more to go: agentic-device-testing)"
 priority: P0 (elevated from P1 — trust-model)
+standing: true  # maintenance goal — never terminally "done"; judging it by updated: freshness is a category error (goal-grooming-proposal-2026-06-21.md §4-G). Exempt-by-nature from the stale-alarm.
 created: 2026-05-24T14:30Z
-updated: 2026-05-27T00:15:00Z
+updated: 2026-06-21T21:01Z  # refreshed (tracking freshness) per goal-grooming-proposal-2026-06-21.md §4-G; kept active as a STANDING maintenance goal. No phase change (1 open A28 refresh: agentic-device-testing).
 linked_plans:
   - context/markdowns/plans/automation/plan-audit-artifact-discipline-plan.md (A18)
   - context/markdowns/plans/automation/master-plan-cross-system-meta-monitoring.md (A19)

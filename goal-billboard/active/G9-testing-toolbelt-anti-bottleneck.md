@@ -6,8 +6,9 @@ track: quality
 northern_star: false
 guiding_light: true
 priority: P0 (elevated — user 25× stress)
+phase: "TBD (needs scoping) — the one goal that never had a phase populated. Phase 1 landed (A27 audit + testing-toolbelt-plan + the agentic-testing-discipline skill + 2 refs + 3 BGs); Phases 2-5 (tier system / scheduler integration / cluster distribution) were queued but never concretely scoped. DECISION PENDING: either populate a concrete current-state + next-action, OR pause if anti-bottleneck testing work now lives under A58 (Immune). Scope NOT invented here. (Marker added per goal-grooming-proposal-2026-06-21.md §4-F.)"
 created: 2026-05-27T00:18:00Z
-updated: 2026-05-27T00:18:00Z
+updated: 2026-06-21T21:01Z  # refreshed + phase: TBD-needs-scoping marker added (no scope invented) per goal-grooming-proposal-2026-06-21.md §4-F
 serves_northern_star: G2
 user_stress_level: maximum (25× repetition)
 linked_plans:

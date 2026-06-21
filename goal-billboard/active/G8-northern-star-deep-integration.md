@@ -6,9 +6,10 @@ track: quality
 northern_star: false
 guiding_light: true
 priority: P1
-phase: "Phase 3 in flight — BG dispatch wrapper (agent-dispatch-with-ns-context.sh + bg-dispatch-wrapper.sh; A29 Layer 5 closed simultaneously)"
+phase: "Phase 3 in flight — BG dispatch wrapper (agent-dispatch-with-ns-context.sh + bg-dispatch-wrapper.sh; A29 Layer 5 closed simultaneously). Open: exit-criteria #4 (per-NS token attribution) + #5 (clears-path badge) — both dashboard surfaces under G18."
 created: 2026-05-26T23:00:00Z
-updated: 2026-05-26T23:48:29Z
+updated: 2026-06-21T21:01Z  # kept active + linked UNDER G21 (belongs_to_goal: G21) per the NS-lock decision (goal-grooming-proposal-2026-06-21.md §4-E); stamp refreshed. No phase change.
+belongs_to_goal: G21  # G8 is the deep-integration ARM of the portable agentic-OS (the Northern Star); sits UNDER G21 per the 2026-06-21 NS-lock. Reciprocal of G21.linked_goals. (NOTE: serves_northern_star below still reads G2 — historical pre-pivot; the live NS is G21. Left as-is — a future batch re-points the many serves_northern_star:G2 stamps to G21.)
 serves_northern_star: G2
 linked_plans:
   - context/markdowns/plans/automation/northern-star-deep-integration-plan.md

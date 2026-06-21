@@ -1,14 +1,15 @@
 ---
 goal_id: G19
 title: Blog automation — ClickUp → Astro blog pipeline (with Cloudflare)
-status: active
+status: paused
+paused: "2026-06-21T21:01Z — PAUSED → paused/ per user-approved goal-grooming triage (goal-grooming-proposal-2026-06-21.md §4-C). A declared deferral, not a stall: build-not-started and the thing it waits behind (G2 Evium) is itself shelved. Research is complete (RH-015); fully resumable on user go. Moved active/ → paused/."
 track: tooling
 northern_star: false
 guiding_light: false
 priority: P2
-phase: "Research complete (RH-015: ClickUp API/auth + blog lifecycle + Astro integration paths + automation-flow design + top-5 ranked tracks, incl. the Cloudflare deploy path). Build not started — deferred behind G2."
+phase: "Research complete (RH-015: ClickUp API/auth + blog lifecycle + Astro integration paths + automation-flow design + top-5 ranked tracks, incl. the Cloudflare deploy path). Build not started — deferred behind G2 (which is itself shelved)."
 created: 2026-05-31T12:51Z
-updated: 2026-05-31T12:51Z
+updated: 2026-06-21T21:01Z
 serves_northern_star: G2
 linked_research:
   - context/markdowns/research/rabbit-holes/RH-015-clickup-blog-automation/

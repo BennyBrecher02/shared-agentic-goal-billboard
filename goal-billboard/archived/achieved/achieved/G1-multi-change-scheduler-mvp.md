@@ -1,12 +1,13 @@
 ---
 goal_id: G1
 title: Multi-change scheduler MVP
-status: active
+status: achieved
+archived: "2026-06-21T21:01Z — ARCHIVED→achieved per user-approved goal-grooming triage (goal-grooming-proposal-2026-06-21.md §4-B). MVP exit criteria met + battle-tested: Phase A.1–A.5 all [x], Phase B partial + Phase D verified, used in anger on G2 (4 real Phase 5 fixes shipped via scheduler). Further scheduler work (PR-mode, M2/SSH, cluster) is design-parked in linked_plans and spins off as its own scoped goal rather than holding G1 active. Moved active/ → archived/achieved/."
 track: infrastructure
 phase: Phase D ✅ + A11 ✅ + G2 launch ✅ (4 real Phase 5 fixes verified via scheduler)
 priority: P0
 created: 2026-05-25T21:16Z
-updated: 2026-05-26T14:54Z
+updated: 2026-06-21T21:01Z
 linked_plans:
   - context/markdowns/plans/multi-change-scheduler-plan.md
   - context/markdowns/plans/multi-change-scheduler-implementation-plan.md

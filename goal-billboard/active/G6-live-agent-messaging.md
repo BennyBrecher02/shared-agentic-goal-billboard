@@ -6,7 +6,7 @@ track: tooling
 phase: Phase 3 in flight — domino-trigger upgrade live (8-trigger fan-out per click). Server POST → `monkey-click-fan-out.sh` async-spawn; 5 fixed-baseline triggers (asks-log, steering-log, heartbeat, NS attribution, dashboard) + 3 conditional (scheduler-queue, bug-billboard, feedback-loop). data.json schema bumped to v3. Phase 2 (priority routing) complete; Phase 3+ (domino) per A31 Front 1. **A71 inbox-never-lost mutation deployed + VERIFY 5/5 PASS** (2026-05-28T10:18Z) — first 4/4 full-tether adaptive-immunity acid test; closes session-local-ack + cross-session-artifact bug class that was causing inbox messages to vanish across concurrent sessions.
 priority: P1 (elevated from P2 — A20 trust-model)
 created: 2026-05-26T14:54:26Z
-updated: 2026-05-28T10:25:00Z
+updated: 2026-06-21T21:01Z  # kept ACTIVE + stamp refreshed (tracking freshness) per goal-grooming-proposal-2026-06-21.md §4-E/G. Open structural question (keep standalone vs fold → G17) left for the user; lean-keep — messaging/sync substrate has live work. No phase change.
 linked_plans:
   - context/markdowns/plans/automation/live-agent-message-queue-plan.md
   - context/markdowns/plans/automation/holdoff-routing-and-monkey-expansion-plan.md (A20)

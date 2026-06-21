@@ -8,7 +8,7 @@ guiding_light: true
 priority: P1
 phase: "Active build — 15 views live; deep iteration in flight (git-page UX overhaul, board goal-wiring fix, rail redesign); animated-monkey chamber feature pinned (P-019)"
 created: 2026-05-31T12:42Z
-updated: 2026-05-31T12:42Z
+updated: 2026-06-21T21:01Z  # refreshed (tracking freshness) per goal-grooming-proposal-2026-06-21.md §4-G — the live work surface; not stalled, just un-stamped. No phase change.
 serves_northern_star: G2
 linked_plans:
   - context/markdowns/plans/dashboard-monolith-split-plan.md

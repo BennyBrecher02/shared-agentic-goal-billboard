@@ -1,13 +1,14 @@
 ---
 goal_id: G15
 title: Rabbit holes — deep research infrastructure (methodology-disciplined wide surveys driving system upgrades)
-status: active
+status: achieved
+archived: "2026-06-21T21:01Z — ARCHIVED→achieved (v1) per user-approved goal-grooming triage (goal-grooming-proposal-2026-06-21.md §4-B). Two-part v1 'done' bar MET: (1) framework shipped — methodology ref + rabbit-holes/ folder discipline + catalog + research/methodology/ corpus all landed; (2) spawn demonstrated — RH-015 → G19 (the exit criterion explicitly cites this as already-satisfying). 2026-05-31 rewrite confirmed present in body (scope paragraph + two-part exit-criteria + History). Annual-refresh cadence stands as the follow-on. Moved active/ → archived/achieved/."
 track: quality
 northern_star: false
 guiding_light: true
 priority: P1
 created: 2026-05-27T02:59:02Z
-updated: 2026-05-27T03:15:25Z
+updated: 2026-06-21T21:01Z
 serves_northern_star: G2
 linked_plans:
   - context/markdowns/plans/automation/rabbit-hole-research-framework-plan.md

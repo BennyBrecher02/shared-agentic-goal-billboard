@@ -6,8 +6,9 @@ track: quality
 northern_star: false
 guiding_light: true
 priority: P1
+phase: "Active — the ACT half of the capture-vs-act seam with G11 (kept deliberately separate, per the 2026-05-31 rewrite). The end-of-session realignment ritual + master system audit (A34 origin) is the Stage-3 post-shutdown step that consumes G11's captured session bundle and drives the realignment. Concrete next: pin the ritual's trigger + the master-audit module set against the live bundle. (Phase line populated + stamp refreshed per goal-grooming-proposal-2026-06-21.md §4-G.)"
 created: 2026-05-27T02:42:15Z
-updated: 2026-05-27T03:15:25Z
+updated: 2026-06-21T21:01Z  # refreshed + empty phase populated per goal-grooming-proposal-2026-06-21.md §4-G
 serves_northern_star: G2
 linked_plans:
   - context/markdowns/plans/automation/end-of-session-realignment-ritual-plan.md
