@@ -12,8 +12,10 @@ phase: >
   every agent's native config in lockstep with --check drift; the activation-conformance detector (14/14)
   guards against passive reversion (passive-tree → RED, real-tree → GREEN). BLS field-harvest folded back
   (4 memories + 6 skill-refs + the post-project-harvest workflow). tiered-QA (SOLO default / MATRIX opt-in)
-  + os-tools MCP design (thin-shell, 9 tools, stdio-local) staged. Remaining gap-to-100%: the live torch
-  render + the matrix-config extract + closing the agnostic-% tail.
+  + os-tools MCP (the ONE MCP — work-substrate retired 2026-06-21; 10 tools incl. cross-tool cot_state) staged.
+  VERIFIED end-to-end on a fresh per-repo deploy (conformance 14/14, all 6 levers live). Remaining: wire the MCP
+  (gated) + the cross-TOOL parallel-brains handoff (Claude×Cursor×Codex, ONE machine — the 2nd-Anthropic-sub /
+  cross-node idea is RETIRED) + close the agnostic-% tail.
 created: 2026-06-08T13:00Z
 updated: 2026-06-21T21:01Z  # activation chapter (verified on disk): directive-skills + repo-bootstrap (deploy-kit.sh) + 4 BLS-mined memories + 6 skill-refs + post-project-harvest workflow + tiered-QA (SOLO/MATRIX) + os-tools MCP design + activation-conformance detector (14/14) + config-generator (--check drift). The OS now ACTIVATES, not just deploys. (prior: 2026-06-09 all-night plow — N=3 adapters Cursor+Claude+Codex, ~92% file-level agnostic, census 6->18 mechanisms.)
 serves_northern_star: G21  # IS the Northern Star itself now (was G2, demoted 2026-06-03; R1 re-anchor 2026-06-09 — the OS is the end-point, the site is test-data)
