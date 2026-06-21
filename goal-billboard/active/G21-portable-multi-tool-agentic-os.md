@@ -13,7 +13,7 @@ phase: >
   guards against passive reversion (passive-tree → RED, real-tree → GREEN). BLS field-harvest folded back
   (4 memories + 6 skill-refs + the post-project-harvest workflow). tiered-QA (SOLO default / MATRIX opt-in)
   + os-tools MCP (the ONE MCP — work-substrate retired 2026-06-21; 10 tools incl. cross-tool cot_state) staged.
-  VERIFIED end-to-end on a fresh per-repo deploy (conformance 14/14, all 6 levers live). Remaining: wire the MCP
+  the deploy SCRIPT correctly lays down + wires the kit files on a fresh project (14/14 file-shape + hook-script-execute checks in a SHELL harness — NO live Cursor/Composer session, so real runtime obedience is still UNTESTED). Remaining: wire the MCP
   (gated) + the cross-TOOL parallel-brains handoff (Claude×Cursor×Codex, ONE machine — the 2nd-Anthropic-sub /
   cross-node idea is RETIRED) + close the agnostic-% tail.
 created: 2026-06-08T13:00Z
