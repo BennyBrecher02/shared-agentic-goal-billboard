@@ -6,6 +6,6 @@
 
 | project | tool | session | state | goal | next step | updated | stale |
 |---------|------|---------|-------|------|-----------|---------|-------|
-| AgenticOS | claude-code | 493cb325 | PLOWING | bootstrap | Committed `53e9b43` (harness travels now; **main is 1 unpushed** → `git push ori | 2026-06-23T19:34:47Z | no |
+| AgenticOS | claude-code | 493cb325 | PLOWING | bootstrap | Committed `53e9b43` (harness travels now; **main is 1 unpushed** → `git push ori | 2026-06-25T04:31:54Z | no |
 
-_1 session(s) tracked; generated 2026-06-23T19:34:47Z._
+_1 session(s) tracked; generated 2026-06-25T04:31:54Z._
