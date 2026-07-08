@@ -124,4 +124,26 @@ promoted to files; they remain as a historical record, not as live file pointers
 
 ---
 
+## Claude-actioned resolutions — 2026-07-08 (AWAITING USER SETTLE — not closed)
+
+> Per user-owns-done: Claude does NOT settle pins. The two below were actioned this session (the user
+> cleared these two SAFE pins for autonomous action — "stop stockpiling procrastination"). They are
+> marked **claude-actioned, awaiting your settle** — read + confirm to settle, or push back.
+
+- **P-012 — verified-counts refresh → CLAUDE-ACTIONED (awaiting settle).** The `feedback_verified-counts.md`
+  memory (STALE since 2026-05-28) was re-derived FRESH 2026-07-08: 74 audits / 11 goals / 104 hooks
+  (102 wired) / 481 scripts / 13 skills / 161 skill-refs / 168 plans / 72 memory topics / 5 healthy
+  daemons / 25 dashboard pages / 22 census attesters GREEN / 100 commits ahead. Every count carries a
+  reproducible command; canonical memory + MEMORY.md pointer updated + mirror auto-synced. The
+  MEMORY.md-phantom half of this pin was already fixed (0 phantoms). **This pin is now fully addressed.**
+- **P-007 — 3 substrate audits stuck `in_progress` (A12/A23/A43) → CLAUDE-ACTIONED (awaiting settle).**
+  Triaged against disk/git: **A12** (destructive-ops) and **A23** (time-precision) are DONE — deliverables
+  shipped + wired (A12's guard was even re-audited+hardened; A23's audit ran twice) — both flipped
+  `status: done` with evidence. **A43** (stats upgrade #2) is genuinely PARTIAL — foundation (M2/M4/M8)
+  shipped, 5 advanced modules (M1/M3/M5/M6/M7) never built; left `in_progress` with a `partial_state`
+  note + next-step. The 4th P-007 item ("hook-overhead") was never a catalogued audit. Detail:
+  `context/markdowns/audits/stale-audits-triage-2026-07-08.md`. **A43 remains the only open remnant.**
+
+---
+
 **Bootstrap complete: 16 pins captured from marathon session 2026-05-27/28. Lane is now load-bearing.**

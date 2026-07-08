@@ -1,7 +1,9 @@
 ---
 audit_id: A12
 title: "Oh-shit audit: destructive operations on uncommitted/staged work"
-status: in_progress
+status: done
+closed: 2026-07-08T03:08:00Z
+close_evidence: "git-checkout-safety.sh EXISTS + WIRED in settings.json; re-audited+hardened 2026-06-07 (finding A12-F1: extended STAGED-only guard to unstaged-uncommitted); whole agentic-safety skill built (destructive-op-guards S4 + 6 sibling refs). Triage: context/markdowns/audits/stale-audits-triage-2026-07-08.md (pin P-007)."
 catalogued: 2026-05-26T15:55:00Z
 priority_when_run: P0
 estimated_effort: small (1-2 hours including hook design)

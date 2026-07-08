@@ -2,6 +2,7 @@
 audit_id: A43
 title: Stats system major upgrade #2 — resource utilization + cross-system correlation + predictive + per-category dashboards + anomaly detection
 status: in_progress
+partial_state: "2026-07-08 (pin P-007): PARTIAL. SHIPPED — M2 correlation (dashboard/correlate_stats.py), M4 per-category dashboards (page-stats/scheduler/subagents + siblings), M8 rolling KPIs (longitudinal-metrics.py) + the run-metrics-aggregator pipeline. NOT BUILT — M1 per-process resource-util sampler, M3 predictive/forecast, M5 anomaly detection, M6 action-surface rule engine, M7 stats query CLI. NOT superseded (Mission Control is a parallelism cockpit, not this). Next: re-scope to the 5 unbuilt modules under NS G21 (M7 small / M1,M5 medium, Fable-era-cheap), or fold M1 into Mission Control CEILINGS. Triage: context/markdowns/audits/stale-audits-triage-2026-07-08.md."
 catalogued: 2026-05-27T03:53:00Z
 priority_when_run: P0
 estimated_effort: large

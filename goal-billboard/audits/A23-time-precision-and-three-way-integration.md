@@ -1,7 +1,9 @@
 ---
 audit_id: A23
 title: "Time precision verification + scheduler/heartbeat/time three-way integration"
-status: in_progress
+status: done
+closed: 2026-07-08T03:08:00Z
+close_evidence: "All 5 named deliverables shipped: run-time-precision-audit.py, utils/verify-clock.sh, hooks/scheduler-heartbeat-coordinator.sh (WIRED), detect-5hr-reset.py, utils/now-iso.sh. Audit RUN twice (research/*/time-precision-audit-20260526.md + -20260607.md). Discipline memory-canonical (feedback_true-time-discipline A36/A37). Triage: context/markdowns/audits/stale-audits-triage-2026-07-08.md (pin P-007)."
 catalogued: 2026-05-26T23:05:00Z
 priority_when_run: P0
 estimated_effort: medium
