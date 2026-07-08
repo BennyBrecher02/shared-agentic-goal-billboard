@@ -74,6 +74,7 @@ promoted to files; they remain as a historical record, not as live file pointers
 | [P-019](P-019-monkey-svg-animated-chamber.md) | Animated-monkey SVG chamber (living monkeys + banana-feeding + glass) | pinned | User wants to build it, OR unpins (under G18) |
 | [P-020](P-020-zoomed-out-board-with-threads.md) | Zoomed-out board mode (birds-eye) + red-thread constellation | pinned | User wants the zoomed-out/constellation view, OR unpins (under G18) |
 | [P-021](P-021-undecided-points-awaiting-user-call.md) | Undecided points awaiting user call (7, swap-v1) | pinned | User reviews + decides each |
+| [P-023](P-023-codex-idle-fill-executor.md) | Codex idle-fill executor — AFTER standalone Codex proven | pinned | ≥1 slam-dunk lane run end-to-end + cost characterised + explicit user greenlight |
 
 > ✅ **Index drift RECONCILED 2026-06-07** (was flagged by the 2026-06-01 pin/todo-integrity audit).
 > The dir holds **P-001 / 002 / 010 / 013 / 017 / 018 / 019 / 020 / 021** — all nine now have index
