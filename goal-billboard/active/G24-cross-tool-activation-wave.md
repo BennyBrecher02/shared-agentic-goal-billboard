@@ -34,20 +34,22 @@ G23 is done and the user opens Cursor** — then this becomes the active front.
   the project_codex-free-compute strategy). Device-ledger already treats codex as a first-class owner.
 
 ## Phase 3 — the coworking stress-test project (the trio: Claude + Cursor + Claude Design)
-The vetted candidate list from cursor-coworking-fresh-projects-2026-07-09.md, **minus the two
-woodshed-duplicate ideas** (Riffbox #1 and Fretlab #2 were rejected 2026-07-09 as overlapping the
-already-built guitar app). Valid, still-standing candidates:
+REFINED 2026-07-12 (user: "genuinely useful devtool stuff, exclude all guitar/music"). All
+music/guitar ideas are OUT of this list (Riffbox/Fretlab = woodshed dupes; Groovebox = music →
+its rhythm-game concept moved to the woodshed backlog instead). **Theme Forge RECOVERED from the
+session transcript** (a compaction had dropped the artifact): it was the 🏆 recommendation, aimed
+at the user's actual paying work. Current candidates, best first:
 
-| # | Idea | One-liner | Score |
-|---|------|-----------|-------|
-| 3 | **Groovebox** | browser rhythm/timing game (falling notes, text-pattern charts) | 22/25 |
-| 4 | **Effectlab** | CSS gradient/shadow/glass/animation studio | 22/25 |
-| 5 | **Patternsmith** | generative SVG pattern/wallpaper studio (seedable, tileable) | 22/25 |
-| 6 | **Launchpad** | keyboard-driven start-page / command palette | 20/25 |
-| 7 | **Devbox** | local dev-utility multitool PWA (regex/JSON/cron/diff/color) | 19/25 |
+| Idea | One-liner | Why it's genuinely useful |
+|------|-----------|---------------------------|
+| 🏆 **Theme Forge** | ingest a **Claude Design export** → live-preview the component set → tweak design tokens → export production Tailwind/CSS | in the paying wheelhouse (Astro + Claude Design client sites); Claude Design literally produces the input — the perfect 3-way test |
+| **Breakpoint Hunter** (app-ified) | URL → width sweep 320–1600 + bisection on cracks (h-scroll/overflow/nav-wrap) → visual crack report | already spec'd in mission-control-plan §Also-folded-in; Cursor=report UI, Claude=sweep engine; we'd use it on every client site |
+| **Effectlab** | layered CSS gradient/shadow/glass/keyframe studio with copyable output | daily web-design tool |
+| **Regex/Selector Lab** | pattern → live-highlighted matches + plain-English explanation | classic engine↔UI ping-pong (from the recovered transcript table) |
+| **Patternsmith** | seedable tileable SVG pattern studio | client-site background assets |
+| **Launchpad / Devbox** | command-palette start page / dev-utility multitool | solid but lower keep-value — bench options |
 
-User picks ONE at activation time. (Note: a "Theme Forge" name from an earlier chat recap appears in
-NO written artifact — treat Effectlab as the closest real candidate; don't chase the ghost name.)
+User picks ONE at activation time; Theme Forge is the standing recommendation.
 
 ## Definition of done
 Both tools live on the lane; one full cross-tool round-trip each (Cursor + Codex); the coworking
