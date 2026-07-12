@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-JustSomeWork-www-herserenity-com",
+  "project_key": "Desktop-JustSomeWork-www-herserenity-com",
+  "session_id": "32243d96-1aa2-4280-8267-a6cc86f8383f",
+  "ts_iso": "2026-06-29T21:04:19Z",
+  "published_ts": "2026-06-29T21:04:19Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "Here’s a read-only diagnosis based on your terminal log and what’s actually running on the machine. ## What’s happening `npm run dev` **is** doing something — it isn’t failing immediately. It prints: ``` > astro dev ``` …and then **Astro hangs during early startup**, before it ev…",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

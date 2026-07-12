@@ -4,7 +4,7 @@
   "project": "AgenticOS",
   "session_id": "493cb325-c560-4c65-b891-09759b6e10cb",
   "ts_iso": "2026-06-23T17:54:36Z",
-  "published_ts": "2026-06-25T04:31:54Z",
+  "published_ts": "2026-06-26T06:25:26Z",
   "open_decision": "",
   "goal": "bootstrap",
   "ns_phase": "",
@@ -54,6 +54,11 @@
     },
     {
       "path": "/Users/bennybrecher/Desktop/hook-sus-log-dump/DIAGNOSIS-AND-FIX.md",
+      "op": "Write",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/cursor-livecot-publish.sh",
       "op": "Write",
       "uncommitted": false
     },
@@ -149,6 +154,11 @@
     },
     {
       "path": "/Users/bennybrecher/Desktop/hook-sus-log-dump/conversation-summary/HOOK_FAILURE_ONSET_EXCERPT.md",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/private/tmp/claude-501/-Users-bennybrecher-Claude-Code-agentic-organic-os/35dec51d-8fd1-4d22-b4b0-82934a953bb4/tasks/wfn094ixk.output",
       "op": "Read",
       "uncommitted": false
     }

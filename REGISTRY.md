@@ -6,3 +6,4 @@ _Each row: project name → repo path (the renderer's back-link source). Append-
 | project | repo path |
 |---|---|
 | AgenticOS | /Users/bennybrecher/Claude/Code/agentic-organic-os |
+| woodshed | /Users/bennybrecher/Claude/Code/woodshed |

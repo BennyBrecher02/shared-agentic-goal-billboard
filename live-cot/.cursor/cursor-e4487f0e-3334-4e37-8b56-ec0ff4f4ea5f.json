@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": ".cursor",
+  "session_id": "e4487f0e-3334-4e37-8b56-ec0ff4f4ea5f",
+  "ts_iso": "2026-06-26T08:28:39Z",
+  "published_ts": "2026-06-26T08:28:39Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "Two fixes are in: ## 1. Simulator stack traces (prefetch crash) Every device was dying on `SiteMenu.astro` importing `astro:prefetch` while prefetch is **off in dev**. Astro throws at import time — try/catch doesn’t help. **Fix:** Removed all prefetch usage from `SiteMenu.astro` …",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

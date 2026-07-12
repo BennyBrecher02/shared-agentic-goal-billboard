@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-JustSomeWork-CAHE-s-cahe-edu-astro-rebuild",
+  "project_key": "Desktop-JustSomeWork-CAHE-s-cahe-edu-astro-rebuild",
+  "session_id": "5a275b57-a32a-424a-895b-9e9e0d4c8f51",
+  "ts_iso": "2026-07-08T17:03:12Z",
+  "published_ts": "2026-07-08T17:03:12Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "## Audit summary I reviewed ~3 weeks of commits against how this repo is supposed to work. **Short answer: you did not add a React *route* or a `client:only` full-page shell like apply/payment.** Every new URL still lives under `src/pages/*.astro`. But **one new page puts almost …",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

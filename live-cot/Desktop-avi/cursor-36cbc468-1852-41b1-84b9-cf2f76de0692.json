@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-avi",
+  "project_key": "Desktop-avi",
+  "session_id": "36cbc468-1852-41b1-84b9-cf2f76de0692",
+  "ts_iso": "2026-07-09T17:15:43Z",
+  "published_ts": "2026-07-09T17:15:43Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "`landing-page-handoff/` is ready at the avi root — production files only, no `.dc.html` prototypes, dev server, or preview scaffolding. ``` landing-page-handoff/ ├── index.html # Full page markup ├── styles.css # Page styles + responsive rules ├── app.js # Drawer, nav, form, side…",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

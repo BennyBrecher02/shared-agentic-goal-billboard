@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-JustSomeWork-www-herserenity-com",
+  "project_key": "Desktop-JustSomeWork-www-herserenity-com",
+  "session_id": "e45ea229-a31c-4001-a88d-353124ff42d1",
+  "ts_iso": "2026-07-09T21:21:58Z",
+  "published_ts": "2026-07-09T21:21:58Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "Done. Forced title lines (`Testing &`, `Answers`, etc.) are now `whitespace-nowrap`, so they can’t split mid-line. On tighter widths the 2-liner titles use `clamp(11px, 3.1vw, 13px)` so the type scales down instead of wrapping into a 3rd line. Family’s 3-liner is unchanged. [REDA…",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-JustSomeWork-gardencarerehab-com",
+  "project_key": "Desktop-JustSomeWork-gardencarerehab-com",
+  "session_id": "c2b25be4-5561-410c-99e9-4030315c4acb",
+  "ts_iso": "2026-07-08T21:38:48Z",
+  "published_ts": "2026-07-08T21:38:48Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "Done — verified on mobile (430px) and desktop (1440px) before sending. **Contact cards — mobile only (`Contact.tsx`)** - **Layout:** `grid-cols-3` on phones; tablet/desktop unchanged (`md:grid-cols-1` → `lg:grid-cols-3` as before) - **Compact sizing:** tighter padding, `24px` ico…",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

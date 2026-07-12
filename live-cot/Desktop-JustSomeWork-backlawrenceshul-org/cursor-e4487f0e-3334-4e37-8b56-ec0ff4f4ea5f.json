@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-JustSomeWork-backlawrenceshul-org",
+  "project_key": "Desktop-JustSomeWork-backlawrenceshul-org",
+  "session_id": "e4487f0e-3334-4e37-8b56-ec0ff4f4ea5f",
+  "ts_iso": "2026-06-30T19:58:11Z",
+  "published_ts": "2026-06-30T19:58:11Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "All matrix devices are shut down — 3 Android emulators (Pixel 4a, Pixel 9, Pixel Tablet) and all booted iOS simulators. Nothing is running now. ### Command for next time From `apps/web`: ```bash npm run devices:hub -- stop ``` Or directly: ```bash bash scripts/keep-hub-devices.sh…",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-JustSomeWork-CAHE-s-cahe-edu-astro-rebuild",
+  "project_key": "Desktop-JustSomeWork-CAHE-s-cahe-edu-astro-rebuild",
+  "session_id": "85dd3e14-10bd-4b12-9c0b-c1a187b99882",
+  "ts_iso": "2026-07-03T19:58:22Z",
+  "published_ts": "2026-07-03T19:58:22Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "The site doesn’t use one third-party “form builder” for everything. It uses a **custom form stack** for main lead/inquiry flows, and **Jotform** for a few separate, mostly alumni/admissions-adjacent forms. ## Main lead forms (Hero, Contact, Landing pages, Request Info drawer) The…",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}

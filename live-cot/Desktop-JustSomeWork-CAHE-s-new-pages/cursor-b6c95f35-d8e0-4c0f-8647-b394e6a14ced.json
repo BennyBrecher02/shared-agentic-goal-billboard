@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tool": "cursor",
+  "project": "Desktop-JustSomeWork-CAHE-s-new-pages",
+  "project_key": "Desktop-JustSomeWork-CAHE-s-new-pages",
+  "session_id": "b6c95f35-d8e0-4c0f-8647-b394e6a14ced",
+  "ts_iso": "2026-07-08T20:01:39Z",
+  "published_ts": "2026-07-08T20:01:39Z",
+  "open_decision": "",
+  "goal": "",
+  "ns_phase": "",
+  "cot_state": "PLOWING",
+  "next_step": "Good questions — both are feasible, neither is crazy, but they solve different problems and have different tradeoffs. --- ## 1. Carrying quiz data to `/contact` (“Speak with admissions”) **Today:** Those buttons are plain links (`href=\"/contact\"`). No query params, no `sessionSto…",
+  "alignment_open": "",
+  "branch": "",
+  "last_commit": "",
+  "mid_edit_files": []
+}
