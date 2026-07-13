@@ -5,7 +5,7 @@
   "project_key": "Claude-Code-agentic-organic-os",
   "session_id": "35dec51d-8fd1-4d22-b4b0-82934a953bb4",
   "ts_iso": "2026-07-12T07:48:07Z",
-  "published_ts": "2026-07-12T20:15:03Z",
+  "published_ts": "2026-07-13T06:29:17Z",
   "open_decision": "",
   "goal": "bootstrap",
   "ns_phase": "",
@@ -13,6 +13,11 @@
   "next_step": "**→ Want the exact one-line paste?** (I'll show you precisely what it adds so you can see it's just the statusLine registration, nothing else.) Let me pull the exact settings-merge so you can eyeball it before deciding:",
   "alignment_open": "",
   "mid_edit_files": [
+    {
+      "path": "/Users/bennybrecher/.claude/projects/-Users-bennybrecher-Claude-Code-agentic-organic-os/memory/feedback_browser-vs-device-gate.md",
+      "op": "Write",
+      "uncommitted": false
+    },
     {
       "path": "/Users/bennybrecher/.claude/shared-billboard/goal-billboard/active/G24-cross-tool-activation-wave.md",
       "op": "Write",
@@ -24,12 +29,37 @@
       "uncommitted": false
     },
     {
-      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/context/markdowns/goal-billboard/asks-log.md",
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/reports/device-fleet/deletion-manifest-2026-07-12.md",
+      "op": "Write",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/context/markdowns/notes/post-restart-kickoff-2026-07-12.md",
+      "op": "Write",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/context/markdowns/research/systems/home-network-inventory-2026-07-12.md",
+      "op": "Write",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/.claude/projects/-Users-bennybrecher-Claude-Code-agentic-organic-os/memory/reference_infra-identity-by-hardware.md",
+      "op": "Write",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/context/markdowns/audits/stop-hook-audit-2026-07-13.md",
+      "op": "Write",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/device-wall/web/wall.css",
       "op": "Read",
       "uncommitted": false
     },
     {
-      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/statusline-usage-capture.sh",
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/context/markdowns/goal-billboard/asks-log.md",
       "op": "Read",
       "uncommitted": false
     },
@@ -40,6 +70,41 @@
     },
     {
       "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/tests/test-device-ledger.sh",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/project-config.json",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/statusline-usage-capture.sh",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/woodshed/reports/gear-dialin-champion-20260712-2200-playwright.png",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/Start-AOS.command",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/woodshed/src/App.tsx",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/lint-skill-staleness.sh",
+      "op": "Read",
+      "uncommitted": false
+    },
+    {
+      "path": "/Users/bennybrecher/Claude/Code/agentic-organic-os/scripts/usage-estimator.py",
       "op": "Read",
       "uncommitted": false
     }
