@@ -33,7 +33,18 @@ guiding light (replaces the null Northern Star the overview flagged).
 1. Tailscale on the M4 (reachability spine). 2. First-boot a Pi + ID the board. 3. Tailscale on the Pi.
 4. Bare git remotes + first offsite push. 5. Shared-store sync timer. 6. Watcher systemd unit.
 7. First sharded job: a task-lane round-trip (Mac posts → Pi claims+runs+replies). 8. ntfy phone alerts.
+9. **Pi 4 joins** (2nd Pi provisioned + on the lane). 10. **M2 joins** (muscle node: device-farm/burst compute).
 
 ## Definition of alive
 The M4 posts a task, closes its lid, and the Pi picks it up, runs it, and pushes the result back — proving the
 organism outlives any single node being awake.
+
+**NOT the definition of DONE (user explicit, 2026-07-14):** the round-trip is the *alive* milestone only.
+G23 completes when the FULL organism exists — **Pi 4 set up + joined, and the M2 joined** (phases 9-10).
+Multi-node = Igor Phase 4; the executor round-trip is the spine they plug into.
+
+## 2026-07-14 status note
+Phases 1-6+8 landed (Igor service live on pi-home; ntfy pipe proven to phone). Phase 7 blocked-then-fixed:
+the store sync carried goal/bug/cot but **tasks/ was never committed on the Mac and NO Mac-side sync agent
+existed** — posts never left the Mac. Fixed: tasks/ committed, Mac sync script at ~/bin/aos-billboard-sync.sh,
+launchd plist staged (user installs). Round-trip re-test queued behind that install.
