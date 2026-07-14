@@ -1,0 +1,16 @@
+{
+  "schema": "aos-task-v1",
+  "id": "20260714T050157Z-cli-511c7",
+  "from": {
+    "tool": "cli",
+    "session": "local"
+  },
+  "to": "claude-code",
+  "project_key": "Claude-Code-agentic-organic-os",
+  "kind": "task",
+  "title": "pi-built gallery page",
+  "body": "Create ~/aos/pi-built/gallery.html \u2014 same deep-space visual language as index.html \u2014 listing everything built on this Pi so far (index.html + this page) with dates and one-line descriptions. Link back to index.html. It will be served by the existing server on :43781. Work ONLY inside ~/aos/pi-built/. No git, no sudo, no network.",
+  "priority": "p2",
+  "in_reply_to": null,
+  "created_ts": "2026-07-14T05:01:57Z"
+}
