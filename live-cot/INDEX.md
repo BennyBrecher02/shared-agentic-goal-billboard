@@ -6,7 +6,7 @@
 
 | project | tool | session | state | goal | next step | updated | stale |
 |---------|------|---------|-------|------|-----------|---------|-------|
-| AgenticOS | claude-code | 339ee55f | PLOWING | bootstrap | do i do 1 or 2for this attached pic options?  | 2026-07-14T04:45:49Z | no |
+| AgenticOS | claude-code | 339ee55f | PLOWING | bootstrap | do i do 1 or 2for this attached pic options?  | 2026-07-14T04:57:32Z | no |
 | AgenticOS | claude-code | 35dec51d | PLOWING | bootstrap | **→ Want the exact one-line paste?** (I'll show you precisely what it adds so yo | 2026-07-14T02:12:05Z | no |
 | Desktop-JustSomeWork-www-herserenity-com | cursor | e45ea229 | PLOWING |  | Fixed. Here’s what was going wrong and what changed. ## Why it broke on his phon | 2026-07-13T17:57:41Z | yes |
 | Desktop-avi | cursor | 36cbc468 | PLOWING |  | `landing-page-handoff/` is ready at the avi root — production files only, no `.d | 2026-07-09T17:15:43Z | yes |
@@ -22,4 +22,4 @@
 | .cursor | cursor | e4487f0e | PLOWING |  | Two fixes are in: ## 1. Simulator stack traces (prefetch crash) Every device was | 2026-06-26T08:28:39Z | yes |
 | AgenticOS | claude-code | 493cb325 | PLOWING | bootstrap | Committed `53e9b43` (harness travels now; **main is 1 unpushed** → `git push ori | 2026-06-26T06:25:26Z | yes |
 
-_15 session(s) tracked; generated 2026-07-14T04:45:49Z._
+_15 session(s) tracked; generated 2026-07-14T04:57:32Z._
