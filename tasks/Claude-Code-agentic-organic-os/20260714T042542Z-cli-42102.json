@@ -1,0 +1,16 @@
+{
+  "schema": "aos-task-v1",
+  "id": "20260714T042542Z-cli-42102",
+  "from": {
+    "tool": "cli",
+    "session": "local"
+  },
+  "to": "claude-code",
+  "project_key": "Claude-Code-agentic-organic-os",
+  "kind": "task",
+  "title": "igor-wiring-dryrun-test",
+  "body": "noop routing check",
+  "priority": "p2",
+  "in_reply_to": null,
+  "created_ts": "2026-07-14T04:25:42Z"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "aos-task-v1",
+  "id": "20260714T044748Z-cli-0be64",
+  "from": {
+    "tool": "cli",
+    "session": "local"
+  },
+  "to": "claude-code",
+  "project_key": "Claude-Code-agentic-organic-os",
+  "kind": "task",
+  "title": "build me X",
+  "body": "describe what you want built, constraints, where to put it",
+  "priority": "p2",
+  "in_reply_to": null,
+  "created_ts": "2026-07-14T04:47:48Z"
+}
